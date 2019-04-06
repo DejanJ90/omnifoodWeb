@@ -1,0 +1,222 @@
+/* Big tablet to 1200px (widths smaller than the 1140px row ) */
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row {
+        padding: 0 2%;
+    }
+}
+
+/* Small tablet to big tablet: from 767px to 1023px */
+@media only screen and (max-width: 1023px) {
+    body {
+        font-size: 18px;
+    }
+
+    section {
+        padding: 60px 0;
+    }
+
+    .main-nav {
+        display: inline-block;
+    }
+
+    .ion-ios-cart-outline+h3 span {
+        display: none;
+    }
+
+    .app-screen {
+        width: 50%;
+    }
+
+    .works-step {
+        margin-bottom: 40px;
+    }
+
+    .works-step:last-of-type {
+        margin-bottom: 60px;
+    }
+
+    .section-cities .row .col.span-1-of-4.box h3 {
+        font-size: 105%;
+    }
+
+    .city-features {
+        font-size: 89%;
+    }
+
+    .icon-small {
+        width: 10px;
+    }
+
+    .plan-price {
+        font-size: 250%;
+    }
+
+    .plan-box {
+        width: 100%;
+    }
+
+    .contact-form {
+        width: 80%;
+    }
+
+}
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 16px;
+    }
+
+    section {
+        padding: 30px 0;
+    }
+
+    .row,
+    .hero-text-box {
+        padding: 0 4%;
+    }
+
+    .col {
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+
+    h1 {
+        font-size: 180%;
+    }
+
+    h2 {
+        font-size: 150%;
+    }
+
+    .logo {
+        height: 70px;
+    }
+    .main-nav {
+       float: left;
+       margin-top: 20px;
+       margin-left: 20px;
+       display: none;
+       -webkit-transition: all 1s;
+       transition: all 1s;
+    }
+
+    .main-nav li {
+        display: none;
+        padding: 5px 0;
+        font-size: 120%;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+    }
+
+    .sticky .main-nav {
+        margin-top: 10px;
+    }
+    
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {
+        padding: 10px 0; 
+    }
+
+    .sticky  .mobile-nav-icon i {
+        color: #555;
+    }
+
+    .mobile-nav-icon {
+        display: inline-block;
+    }
+
+    .long-copy {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .section-features .long-copy {
+        margin-bottom: 15px;
+    }
+
+    .ion-ios-nutrition-outline+h3 span {
+        display: none;
+    }
+
+    .box {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .section-features .col:first-child {
+        margin-left: 15%;
+    }
+
+    .app-screen {
+        width: 40%;
+    }
+
+    .steps-box:first-child {
+        text-align: center;
+    }
+
+    .steps-box:last-child {
+        margin-top: 50px;
+    }
+
+    .btn-app:first-of-type img {
+        margin-left: 60px;
+    }
+
+    .section-cities .col:first-child {
+        margin-left: 15%;
+    }
+
+    /****** SECTIONS TESTIMONIALS ******/
+    .sections-testimonials .row:last-child {
+        width: 80%;
+    }
+
+    /****** SECTIONS PLANS ******/
+    .plan-box {
+        margin: 0;
+    }
+
+    /****** SECTIONS FORM ******/
+    .contact-form .row:last-child div:first-of-type {
+        display: none;
+    }
+
+    /****** FOOTER ******/
+
+    .footer-nav,
+    .social-links {
+        text-align: center;
+        float: none;
+    }
+
+    footer .row:first-child div:last-of-type {
+        margin: 0;
+    }
+}
+
+/* Small phones from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    body {
+        font-size: 15px;
+    }
+
+    section {
+        padding: 20px 0;
+    }
+
+    /****** CONTACT FORM ******/
+    .contact-form {
+        width: 100%;
+    }
+}
